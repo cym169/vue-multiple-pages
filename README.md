@@ -1,7 +1,6 @@
 # vue多页面应用模板
 
 **Vue PC端多页面应用模板 ，基于Vue 2, Webpack4, Element-UI**
-**也集成了sass，less。初始化的时候可以进择**
 
 ## 依赖
 
@@ -30,24 +29,15 @@ $ npm install
 $ npm run dev
 ```
 
-访问 [http://localhost:8010/user/login.html](http://localhost:8010/user/login.html)
+访问 [http://localhost:8010/login.html]
 
-访问 [http://localhost:8010/user/index.html](http://localhost:8010/user/index.html)
-
-访问 [http://localhost:8010/customer/index.html](http://localhost:8010/customer/index.html)
+访问 [http://localhost:8010/index.html]
 
 #### 打包
 
 ```bash
 $ npm run build
-$ node server.js #listen 2333 port
 ```
-
-访问 [http://localhost:2333/user/login.html](http://localhost:2333/user/login.html)
-
-访问 [http://localhost:2333/user/index.html](http://localhost:2333/user/index.html)
-
-访问 [http://localhost:2333/customer/index.html](http://localhost:2333/customer/index.html)
 
 
 ## 项目结构
@@ -130,9 +120,7 @@ $ node server.js #listen 2333 port
 ## 注意
 
 **若需修改结构，记得在webpack.base.conf.js文件中修改相对应的路径，这个是需要注意的。**
-
-**server.js是为了方便演示使用。若不需要可以删除。**
-
+**autoprefixer已经挂在postcss.config.js中了，请自行根据它的API来配置。**
 ## License
 
 MIT
