@@ -1,6 +1,7 @@
 # vue多页面应用模板
 
 **Vue PC端多页面应用模板 ，基于Vue 2, Webpack4, Element-UI**
+**也集成了sass，less。初始化的时候可以进择**
 
 ## 依赖
 
@@ -12,8 +13,6 @@
 6. [Sass](https://github.com/webpack-contrib/sass-loader)
 
 ## 开始
-
-### [vue-cli2](https://github.com/vuejs/vue-cli)
 
 #### 初始化项目
 
@@ -127,6 +126,12 @@ $ node server.js #listen 2333 port
                 ├── app.js
                 └── app.vue
 ```
+
+## 注意
+
+**若需修改结构，记得在webpack.base.conf.js文件中修改相对应的路径，这个是需要注意的。**
+
+**server.js是为了方便演示使用。若不需要可以删除。**
 
 ## License
 
