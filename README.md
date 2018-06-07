@@ -29,92 +29,14 @@ $ npm install
 $ npm run dev
 ```
 
-访问 [http://localhost:8010/login.html]
+访问 http://localhost:8010/login.html
 
-访问 [http://localhost:8010/index.html]
+访问 http://localhost:8010/index.html
 
 #### 打包
 
 ```bash
 $ npm run build
-```
-
-
-## 项目结构
-
-```bash
-.
-├── README.md
-├── build // webpack config
-│   ├── webpack.base.conf.js
-│   ├── webpack.dev.conf.js
-│   └── webpack.prod.conf.js
-├── dist // dist
-│   ├── assets
-│   │   ├── css
-│   │   │   ├── commons.css
-│   │   │   ├── commons.css.map
-│   │   │   ├── customer
-│   │   │   │   ├── home.css
-│   │   │   │   ├── home.css.map
-│   │   │   │   ├── home2.css
-│   │   │   │   └── home2.css.map
-│   │   │   └── user
-│   │   │       ├── index.css
-│   │   │       ├── index.css.map
-│   │   │       ├── login.css
-│   │   │       └── login.css.map
-│   │   ├── img
-│   │   │   └── element-icons.6f0a763.ttf
-│   │   └── js
-│   │       ├── commons.js
-│   │       ├── commons.js.map
-│   │       ├── customer
-│   │       │   ├── home.js
-│   │       │   ├── home.js.map
-│   │       │   ├── home2.js
-│   │       │   └── home2.js.map
-│   │       └── user
-│   │           ├── index.js
-│   │           ├── index.js.map
-│   │           ├── login.js
-│   │           └── login.js.map
-│   ├── customer
-│   │   ├── home.html
-│   │   └── home2.html
-│   ├── logo.png
-│   └── user
-│       ├── index.html
-│       └── login.html
-├── package.json
-├── postcss.config.js
-├── server.js
-└── src
-    ├── assets
-    │   ├── css
-    │   └── img
-    │       └── logo.png
-    ├── components
-    │   └── modal.vue
-    └── pages
-        ├── customer
-        │   ├── home
-        │   │   ├── app.html
-        │   │   ├── app.js
-        │   │   └── app.vue
-        │   └── home2
-        │       ├── app.html
-        │       ├── app.js
-        │       └── app.vue
-        └── user
-            ├── index
-            │   ├── app.html
-            │   ├── app.js
-            │   └── app.vue
-            └── login
-                ├── app.html
-                ├── app.js
-                └── app.vue
 ```
 
 ## 注意
