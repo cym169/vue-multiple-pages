@@ -31,7 +31,7 @@
     },
     methods: {
       tototo () {
-        location.assign('../user/login.html')
+        location.assign('../login.html')
       }
     }
   }
