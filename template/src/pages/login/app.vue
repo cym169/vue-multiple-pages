@@ -34,7 +34,7 @@
 
     methods: {
       login () {
-        location.assign('../user/index.html')
+        location.assign('../index.html')
       }
     }
   }

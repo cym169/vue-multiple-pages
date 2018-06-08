@@ -6,17 +6,11 @@
       </div>
       <ul>
         <li>
-          <a href="https://github.com/Plortinus/vue-multiple-pages" target="_blank">
+          <a href="https://github.com/cym169/vue-multiple-pages" target="_blank">
             Vue Multiple Pages
           </a>
         </li>
-        <li>
-          <a href="https://github.com/Plortinus/element-china-area-data" target="_blank">
-            Element China Area Data
-          </a>
-        </li>
       </ul>
-      <el-button type="primary" @click="gogogo">To Customer Home Page</el-button>
       <el-button type="primary" plain @click="tototo">To User Login Page</el-button>
     </el-card>
   </div>
@@ -36,9 +30,6 @@
       }
     },
     methods: {
-      gogogo () {
-        location.assign('../customer/home.html')
-      },
       tototo () {
         location.assign('../user/login.html')
       }
