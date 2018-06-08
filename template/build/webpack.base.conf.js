@@ -8,18 +8,18 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const extractCSS = new ExtractTextPlugin({
-  filename: 'assets/css/[name].css',
+  filename: 'css/[name].css',
   allChunks: true
 })
 {{#less}}
 const extractLESS = new ExtractTextPlugin({
-  filename: 'assets/css/[name].css',
+  filename: 'css/[name].css',
   allChunks: true
 })
 {{/less}}
 {{#sass}}
 const extractSASS = new ExtractTextPlugin({
-  filename: 'assets/css/[name].css',
+  filename: 'css/[name].css',
   allChunks: true
 })
 {{/sass}}
@@ -37,7 +37,7 @@ glob.sync('./src/pages/**/app.js').forEach(path => {
     filename: filename,
     template: path.replace(/.js/g, '.html'),
     inject: 'body',
-    favicon: './src/assets/img/logo.png',
+    favicon: './src/assets/logo.png',
     hash: true,
     chunks: ['commons', chunk]
   }
@@ -74,7 +74,7 @@ const config = {
   entry: entries,
   output: {
     path: resolve(__dirname, '../dist'),
-    filename: 'assets/js/[name].js',
+    filename: 'js/[name].js',
     publicPath: '/'
   },
   resolve: {
@@ -161,7 +161,7 @@ const config = {
           loader: 'url-loader',
           options: {
             limit: 10000,
-            name: 'assets/img/[name].[hash:7].[ext]'
+            name: 'img/[name].[hash:7].[ext]'
           }
         }]
       }

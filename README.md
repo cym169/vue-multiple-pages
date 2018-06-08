@@ -37,11 +37,15 @@ $ npm run dev
 
 ```bash
 $ npm run build
+$ node server.js
 ```
+
+访问 http://localhost:2030/index.html
 
 ## 注意
 
 **若需修改结构，记得在webpack.base.conf.js文件中修改相对应的路径，这个是需要注意的。**
+**若不需要element或者其他插件，请自行修改。**
 **autoprefixer已经挂在postcss.config.js中了，请自行根据它的API来配置。**
 ## License
 

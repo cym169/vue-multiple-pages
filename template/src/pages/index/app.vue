@@ -17,7 +17,7 @@
 </template>
 
 <script>
-  import logo from 'assets/img/logo.png'
+  import logo from 'assets/logo.png'
   import modal from 'components/modal.vue'
   export default {
     components: {
