@@ -17,6 +17,11 @@
 
 ``` bash
 $ npm install -g vue-cli
+经过朋友测试，会报错 webpack-dev-server:command not found，所以我在这里加上了全局安装webpack和webpac-dev-server的步骤。已经全局安装过的朋友请略过！
+----------------------------------------------------------------------------------------------------
+$ npm install -g webpack
+$ npm install -g webpack-dev-server
+----------------------------------------------------------------------------------------------------
 $ vue init cym169/vue-multiple-pages new-project
 $ cd new-project
 $ npm install
